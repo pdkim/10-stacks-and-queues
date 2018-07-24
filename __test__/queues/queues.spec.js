@@ -43,7 +43,6 @@ describe('Queues module should', () => {
   it('convert string into a new list', () => {
 
     let queue = Queue.deserialize('1, 2, 3');
-    console.log(queue);
 
     expect(queue.head.value).toBe(1);
 
